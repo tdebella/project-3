@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../public/huddle-landing/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+  /* display: grid;
+  grid-template-columns: 100%; */
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 100vh;
+  /* border-radius: 8px;
+  box-shadow: 0px 0px 14px 1px #00000024; */
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin: 0.2rem;
+}
